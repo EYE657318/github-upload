@@ -1,0 +1,60 @@
+SSC2401 Summer Lab 2 Answer Sheet
+Name: Isaac Phillips
+
+
+1.) Nothing, it closes automatically
+When making that not happen, this is the result:
+2 4 6 8 10 12 14
+2 4 6 5 10 15 14 Total bytes allocated = 60
+Enter any character to exit.
+
+2.)
+The original array has been edited, replacing 8, 10, and 12, though N2 has properly removed the 14.
+
+3.)
+The addresses for N1 and N2 are the same. Not sure why, but replacing 'N1 = N2' with another way of entering numbers solves the problem, so I assume that has something to do with it.
+
+4.)
+Now the arrays are actually different from eachother, and correct. 
+
+5.)
+Yes
+
+6.)
+The address isn't copied over in our overloaded assignment.
+
+7.)
+0xa78c78
+0xa7a028
+0xa7b3d8
+0xa7c788
+0xa7db38
+
+8.)
+Ignore ones digit since they're all 8
+a is two higher than 8
+0 is 12 lower than c
+2 is five lower than 7
+
+200 - 120 - 7 = 73
+730
+
+9.)
+0x708c78
+Get out >:(
+0x70a028
+Get out >:(
+0x70b3d8
+Get out >:(
+0x70c788
+Get out >:(
+0x70db38
+Get out >:(
+
+they seem to be the same distance apart.
+
+10.)
+80
+
+11.)
+The message is from the destructor working, meanwhile the byte size is different due to it removing the bytes associated with the deleted arrays.

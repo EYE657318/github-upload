@@ -1,0 +1,21 @@
+-make a Dnode class for doubly linked lists. Template. Functions: next, previous, data, set_next, set_previous, set_data. Constructor sets to NULL. Look at lab4 for help.
+DONE
+
+-make a template list class. Head and tail pointers. front_insert, rear_insert, front_remove, rear_remove. 
+DONE
+
+-use main1 to test incrementally.
+PROCESSING...
+
+-make list big 3. destructor same as singly linked list.. when copying, maintain both pointers.
+TODO
+
+-bidirectionsal, external iterator. begin, end, r_begin, r_end, insert_before, insert_after, remove. not sure what this is, watch the videos. If not there, guess you have to buy the book.
+
+--end of page 1--
+
+-the swatches class holds hexadecimal color values
+
+oh... I don't actually need to interact with that at all? Check the videos to make sure. 
+
+In the end, we will be making: dnode.h, iterator.h, dlist.h, dlist.template

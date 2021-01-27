@@ -1,0 +1,142 @@
+//this will be the template for the dlist; it is like any normal definition would be in a *.cc file, just with template<class T> above every function definition.
+
+template<class T>
+dlist<T>::dlist(){
+    head = NULL;
+    tail = NULL;
+    listsize = 0;
+}
+
+template<class T>
+dlist<T>::dlist(const dlist& other){
+    listsize = other.listsize;
+    node<T>* otherlist = other.head;
+    head = new node<T>(otherlist -> data());
+    head -> set_data(otherlist -> data());
+    otherlist = otherlist -> next();
+    //cout << "Before loop." << endl;
+
+    for(node<T>* cursor = head; otherlist != NULL; cursor = cursor -> next()){
+        cursor -> set_next(new node<T>(otherlist -> data()));
+        node<T>* nextnode = cursor -> next();
+        nextnode -> set_previous(cursor);
+        nextnode -> set_data(otherlist -> data());
+        otherlist = otherlist -> next();
+        //cout << "e" << endl;
+        tail = cursor -> next();
+     }
+    
+
+}
+
+template<class T>
+void dlist<T>::operator =(const dlist& other){
+    if(&other == this){
+        return;
+    }
+    listsize = other.listsize;
+    node<T>* otherlist = other.head;
+    head = new node<T>(otherlist -> data());
+    head -> set_data(otherlist -> data());
+    otherlist = otherlist -> next();
+
+    for(node<T>* cursor = head; otherlist != NULL; cursor = cursor -> next()){
+        cursor -> set_next(new node<T>(otherlist -> data()));
+        node<T>* nextnode = cursor -> next();
+        nextnode -> set_previous(cursor);
+        nextnode -> set_data(otherlist -> data());
+        otherlist = otherlist -> next();
+        tail = cursor -> next();
+    }
+
+
+}
+
+template<class T>
+dlist<T>::~dlist(){
+    for(node<T>* cursor = head; cursor != NULL; cursor = cursor -> next()){
+        delete head;
+    }
+}
+
+template<class T>
+void dlist<T>::front_insert(T add){
+    node<T>* toadd = new node<T>(add);
+
+    if(head == NULL){
+        head = toadd;
+        if(tail == NULL){
+            tail = head;
+        }else{
+            tail -> set_previous(head);
+        }
+    }else{
+        head -> set_previous(toadd);
+        toadd -> set_next(head);
+        head = toadd;
+    }
+    listsize++;
+}
+
+template<class T>
+void dlist<T>::rear_insert(T add){
+    node<T>* toadd = new node<T>(add);
+
+    if(tail == NULL){
+        tail = toadd;
+        if(head == NULL){
+            head = tail;
+        }else{
+        head -> set_next(tail);
+        }
+
+    }else{
+        tail -> set_next(toadd);
+        toadd -> set_previous(tail);
+        tail = toadd;
+        
+    }
+    listsize++;
+}
+
+template<class T>
+void dlist<T>::front_remove(){
+    if(head -> next() != NULL){
+       // cout<<"whyhere"<<endl;
+    head = head -> next();
+    head -> set_previous(NULL);
+    listsize--;
+    }else{
+        //cout<<"here"<<endl;
+        head = NULL;
+        listsize--;
+    }
+
+}
+
+template<class T>
+void dlist<T>::rear_remove(){
+    if(tail -> previous() != NULL){
+    tail = tail -> previous();
+    tail -> set_next(NULL);
+    listsize--;
+    }else{
+        tail = NULL;
+        listsize--;
+    }
+
+}
+
+template<class T>
+void dlist<T>::show(){
+    for(node<T>* cursor = head; cursor != NULL; cursor = cursor -> next()){
+        cout << cursor -> data() << endl;
+    }
+}
+
+template<class T>
+void dlist<T>::reverse_show(){
+    for(node<T>* cursor = tail; cursor != NULL; cursor = cursor -> previous()){
+        cout << cursor -> data() << endl;
+    }
+}

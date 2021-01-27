@@ -1,0 +1,31 @@
+Enter a description.
+Trash, out
+Enter the priority
+3
+Enter a description.
+stop dog from gnawing leg off
+Enter the priority
+9
+Enter a description.
+wake up
+Enter the priority
+11
+Enter a description.
+throw stuff away
+Enter the priority
+2
+Enter a description.
+do laundry
+Enter the priority
+0
+Chore: wake up
+Priority: 11
+Chore: stop dog from gnawing leg off
+Priority: 9
+Chore: Trash, out
+Priority: 3
+Chore: throw stuff away
+Priority: 2
+Chore: do laundry
+Priority: 0
+Enter any character to exit.

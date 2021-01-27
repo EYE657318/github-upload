@@ -1,0 +1,21 @@
+Score: 44, Grade: F.
+Score: 55, Grade: F.
+Score: 66, Grade: D.
+Score: 77, Grade: C.
+Score: 88, Grade: B.
+Score: 99, Grade: A.
+Score: 50, Grade: F.
+Score: 60, Grade: D.
+Score: 70, Grade: C.
+Score: 80, Grade: B.
+Score: 90, Grade: A.
+Score: 78.5, Grade: C.
+Score: 99.5, Grade: A.
+ 
+Grade    Frequency
+------------------
+A             3
+B             2
+C             3
+D             2
+F             3

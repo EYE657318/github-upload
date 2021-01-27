@@ -1,0 +1,61 @@
+Enter 1 to record a Circle.
+Enter 2 to record a Rectangle.
+Enter 3 to record a Trapezoid.
+Enter 4 to quit and see total for the box.
+1
+Please enter the radius
+1
+Enter 1 to record a Circle.
+Enter 2 to record a Rectangle.
+Enter 3 to record a Trapezoid.
+Enter 4 to quit and see total for the box.
+2
+Please enter the length
+1
+Please enter the width
+1
+Enter 1 to record a Circle.
+Enter 2 to record a Rectangle.
+Enter 3 to record a Trapezoid.
+Enter 4 to quit and see total for the box.
+3
+Please enter the first base
+1
+Please enter the second base
+1
+Please enter the height
+1
+Enter 1 to record a Circle.
+Enter 2 to record a Rectangle.
+Enter 3 to record a Trapezoid.
+Enter 4 to quit and see total for the box.
+1
+Please enter the radius
+3
+Enter 1 to record a Circle.
+Enter 2 to record a Rectangle.
+Enter 3 to record a Trapezoid.
+Enter 4 to quit and see total for the box.
+2
+Please enter the length
+5
+Please enter the width
+5
+Enter 1 to record a Circle.
+Enter 2 to record a Rectangle.
+Enter 3 to record a Trapezoid.
+Enter 4 to quit and see total for the box.
+3
+Please enter the first base
+5
+Please enter the second base
+3
+Please enter the height
+1
+Enter 1 to record a Circle.
+Enter 2 to record a Rectangle.
+Enter 3 to record a Trapezoid.
+Enter 4 to quit and see total for the box.
+4
+The total cost of this box of blocks is $65.42
+Enter any character to exit

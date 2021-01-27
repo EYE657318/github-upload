@@ -1,0 +1,54 @@
+DO NOT ALTER HOUSEHOLD.H, MAIN.CC, HOUSEHOLDS.TXT
+
+-----------------Household.cc:
+
+-set head           DONE
+-set address            DONE
+-set occupants          DONE
+-set income         DONE
+
+-get head      DONE
+-get address       DONE
+-get occupants     DONE
+-get income          DONE
+
+-input                 DONE
+-output               DONE
+
+->>                    DONE
+-<<                       DONE
+
+
+------------------Ward.h:          
+-constructor               DONE
+
+-input household           DONE
+-output all households  DONE
+-remove household             DONE
+
+-find house by name          DONE
+-find house with largest income         DONE
+-find average income                      DONE
+-find average house population        DONE
+
+-sort by income         DONE
+-sort by name              DONE
+
+
+
+
+------------------Ward.cc:
+-constructor
+
+-input household
+-output all households
+-remove household
+
+-find house by name
+-find house with largest income
+-find average income
+-find average house population
+
+-sort by income
+-sort by name
+

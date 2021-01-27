@@ -1,0 +1,32 @@
+Please enter your expression:
+12 679 5 + 4 * 8 / +
+The answer is: 354
+Enter 9 if you want to exit, and any other character if you want to continue.
+e
+Please enter your expression:
+34 6 + 16 * 18 -
+The answer is: 622
+Enter 9 if you want to exit, and any other character if you want to continue.
+e
+Please enter your expression:
+12 6 - 8 + 7 * +
+Error: Not enough numbers for inputted operator.
+Enter 9 if you want to exit, and any other character if you want to continue.
+e
+Please enter your expression:
+56 78 84 + 33 *
+Error. Insufficient operators for operands.
+The answer is: 5346
+Enter 9 if you want to exit, and any other character if you want to continue.
+e
+Please enter your expression:
+200 5 - 5 - 5 - 5 -
+Error. Insufficient operators for operands.
+The answer is: 180
+Enter 9 if you want to exit, and any other character if you want to continue.
+e
+Please enter your expression:
+12 12 * 12 / 12 * 12 /
+Error. Insufficient operators for operands.
+The answer is: 12
+Enter 9 if you want to exit, and any other character if you want to continue.

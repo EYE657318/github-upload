@@ -1,0 +1,16 @@
+John E Dolan
+CS2400
+A
+4
+EE1024
+B
+4
+MATH2301
+B
+4
+TEST1
+A
+2
+TEST2
+A
+2

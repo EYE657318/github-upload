@@ -1,0 +1,58 @@
+CS 2401 SUMMER 2020 HOMEWORK 2 Answer sheet                     NAME: Isaac Phillips
+
+----------------------------------------------------------Part One:  
+
+7.   
+*
+*
+*
+*
+*
+*
+Enter any character to exit.
+
+10.
+*
+**
+***
+****
+*****
+******
+Enter any character to exit.
+
+11.
+Changes made to the variable carry over even when it would otherwise be reset as a new instance.
+
+12.
+x is redeclared every time pretty() is run again.
+
+
+-------------------------------------------------------------------Part Two:
+
+4.
+cout << ptr << endl;
+0x1046fd0
+
+5.
+cout << &ptr << endl;
+0x61feb8
+
+8.
+2402 is stored at 0xf16fd0
+2411 is stored at 0xf16fd0
+
+10.
+0 is stored at 0x1136ff4
+-1 is stored at 0x1136ff8
+
+-------------------------------------------------------------Part Three:
+
+16.
+one number is seen in the output, unless endl;s are put in the cout statements, in which case five are seen.
+
+18.
+The program resizes five times.
+
+20.
+The third number in the array is a zero now. 
+

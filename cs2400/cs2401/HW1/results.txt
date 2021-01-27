@@ -1,0 +1,60 @@
+Please enter the number of hours, then the number of minutes.
+2
+30
+2:30
+Now do it again.
+1
+15
+1:15
+Now, we math.
+Addition of the times;   3:45
+Subtraction of the times;   1:15
+Multiplying the first by 2;  5:00
+Divising the first by 2;   1:15
+The entries are not equal.
+The first entry is not less than the second entry.
+The first entry is not less than or equal to the second entry
+Please enter any character to exit.
+
+
+
+Please enter the number of hours, then the number of minutes.
+5
+0
+5:00
+Now do it again.
+4
+60
+5:00
+Now, we math.
+Addition of the times;   10:00
+Subtraction of the times;   0:00
+Multiplying the first by 2;  10:00
+Divising the first by 2;   2:30
+The entries are equal to eachother.
+The first entry is not less than the second entry.
+The first entry is less than or equal to the second entry.
+Please enter any character to exit.
+
+
+
+
+
+Please enter the number of hours, then the number of minutes.
+1
+15
+1:15
+Now do it again.
+6
+90
+7:30
+Now, we math.
+Addition of the times;   8:45
+Subtraction of the times;   6:15
+Multiplying the first by 2;  2:30
+Divising the first by 2;   0:37
+The entries are not equal.
+The first entry is less than the second entry.
+The first entry is less than or equal to the second entry.
+Please enter any character to exit.
+

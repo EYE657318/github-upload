@@ -1,0 +1,12 @@
+Enter a number: 23
+The even numbers counting to there:
+2 4 6 8 10 12 14 16 18 20 22 Enter a number: 18
+The even numbers counting to there:
+2 4 6 8 10 12 14 16 18 Enter a number: -2
+The even numbers counting to there:
+Enter a string:testing123
+Now enter two numbers that are within the bounds of the string.3
+6
+This is how your words look now:
+tesgnit123
+Enter any character to exit.
